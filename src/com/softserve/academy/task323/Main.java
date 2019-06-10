@@ -11,7 +11,7 @@ public class Main {
         try {
             int[] rez = task.run(94);
             System.out.println(rez[0] + " " + rez[1] + " " + rez[2] + " " + rez[3]);
-        }catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
 
